@@ -31,7 +31,8 @@ android {
         $$PWD/android/androidinapptransaction.h
 
     ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android/
-    JAVA_CLASS_PATH = $$ANDROID_PACKAGE_SOURCE_DIR/src/org/qtproject/qt/android/purchasing/
+   # JAVA_CLASS_PATH = $$ANDROID_PACKAGE_SOURCE_DIR/src/org/qtproject/qt/android/purchasing/
+    JAVA_CLASS_PATH = $$ANDROID_PACKAGE_SOURCE_DIR/src/org/qtproject/example/hangman
 
     OTHER_FILES += \
         $$PWD/android/AndroidManifest.xml \
@@ -39,7 +40,8 @@ android {
         $$JAVA_CLASS_PATH/Security.java \
         $$JAVA_CLASS_PATH/InAppPurchase.java \
         $$JAVA_CLASS_PATH/Base64.java \
-        $$JAVA_CLASS_PATH/Base64DecoderException.java
+        $$JAVA_CLASS_PATH/Base64DecoderException.java \
+        $$JAVA_CLASS_PATH/BootReceiver.java
 }
 
 ios {
@@ -64,3 +66,4 @@ ios {
         $$PWD/ios/iosinapppurchaseproduct.mm \
         $$PWD/ios/iosinapppurchasetransaction.mm
 }
+

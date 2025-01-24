@@ -19,3 +19,6 @@ target.path = $$[QT_INSTALL_EXAMPLES]/demos/hangman
 INSTALLS += target
 
 include($$PWD/purchasing/purchasing.pri)
+
+DISTFILES += \
+    README.md

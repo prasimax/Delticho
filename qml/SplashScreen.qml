@@ -32,7 +32,7 @@ Rectangle {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: logo.bottom
         anchors.topMargin: 10
-        text: "Qt Hangman"
+        text: "WMD Paragon"
         font.family: "Helvetica"
         color: "white"
         font.pointSize: 24
